@@ -1,7 +1,5 @@
 import * as pulumi from "@pulumi/pulumi";
 import * as aws from "@pulumi/aws";
-import * as fs from 'fs';
-import * as path from 'path';
 
 import { getConfig } from "./config"
 import { createWebsiteBucket } from "./components/s3";
